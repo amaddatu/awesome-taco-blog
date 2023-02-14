@@ -24,11 +24,11 @@ const Home = () => {
             <div>Loading...</div>
           ) : (
             <div>
-              <h3>Tacos rule!</h3>
-            <ThoughtList
-              thoughts={thoughts}
-              title="Some Feed for Thought(s)..."
-            />
+              <h3>Tom Rules! Tacos rule!</h3>
+              <ThoughtList
+                thoughts={thoughts}
+                title="Some Feed for Thought(s)..."
+              />
             </div>
           )}
         </div>
