@@ -23,10 +23,13 @@ const Home = () => {
           {loading ? (
             <div>Loading...</div>
           ) : (
-            <ThoughtList
-              thoughts={thoughts}
-              title="Some Feed for Thought(s)..."
-            />
+            <div>
+              <p>Tom Rules!</p>
+              <ThoughtList
+                thoughts={thoughts}
+                title="Some Feed for Thought(s)..."
+              />
+            </div>
           )}
         </div>
       </div>
