@@ -24,7 +24,7 @@ const Home = () => {
             <div>Loading...</div>
           ) : (
             <div>
-              <p>Tom Rules!</p>
+              <h3>Tom Rules! Tacos rule!</h3>
               <ThoughtList
                 thoughts={thoughts}
                 title="Some Feed for Thought(s)..."
